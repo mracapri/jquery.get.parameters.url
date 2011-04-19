@@ -1,0 +1,25 @@
+OBJETIVO: 
+
+Este plugin tiene la finalidad de extender la funcionalidad de jQuery agregando un metodo que obtiene el valor de un parametro de URL solo indicando el nombre del parametro
+
+
+MINI TUTORIAL:
+
+Pre-Requisitos:
+	1.- Referenciar las siguientes bibliotecas jquery al head:
+		
+		<script type='text/javascript' src='js/jquery-1.4.2.min.js'></script> 
+
+		<script type="text/javascript">
+		$().ready(function(){
+			alert($.getParameter("valor"));
+		});
+		</script>		
+		
+	2.- Pagina: 
+		
+		<html>
+		<body>
+			<a href="sample.html?valor=123">Click aqui!</a>
+		</body>
+		</html>
